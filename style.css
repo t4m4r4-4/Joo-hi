@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+body{
+  background-color: #66281C
+}
+.pagedoll {
+  position: fixed;
+  width: 350px;
+  cursor: pointer;
+}
+
+.pagedoll1 {
+  bottom: 0;
+  right: 0;
+}
+
+.normalesbild {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+}
+
+.gif {
+  display: none;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+}
+
+.normalesbild2 {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+}
